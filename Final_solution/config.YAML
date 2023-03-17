@@ -1,0 +1,25 @@
+#### Weights and Biases
+WAND            : True
+WAND_API_KEY    : 'd320cfdf4ea19d39034deb527ffc465e23e9325b'
+
+SEED            : 69
+
+#### MLP
+MAX_EPOCHS      : 100
+N_SPLITS        : 3
+BATCH_SIZE      : 12288
+ACTIVATION      : tfa.activations.mish
+DROPOUT_PCT     : 0.1
+
+## Callbacks
+# Reduce on Plateau
+LR_PATIENCE     : 3
+LR_FACTOR       : 0.5
+
+# Early Stopping
+ES_PATIENCE     : 12
+
+## Optimizer
+INITIAL_LR      : 0.02
+
+PATH            : 'drive/MyDrive/Kaggle/Imputation_062022/'
