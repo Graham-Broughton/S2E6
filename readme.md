@@ -1,4 +1,4 @@
-# Kaggle Tabular Playground Series - June 2022
+# Tabular Playground Series - June 2022
 ## Missing Value Imputation
 
 # **Table of Contents**
